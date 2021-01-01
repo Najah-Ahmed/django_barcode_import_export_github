@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'barcode_import_export',
     'import_export',
+    'dependent_drop_down',
 
 ]
 
