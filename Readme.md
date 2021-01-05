@@ -13,8 +13,12 @@ then:
 
 ```
 pip install -r requirements.txt
+ 
 ```
 
 ```
-python manage.py runserver
+python manage.py makemigeations 
+python manage.py migrate # to migrate or create database table
+python manage.py createsuperuser #create admin user
+python manage.py runserver 
 ```
